@@ -1,0 +1,33 @@
+languages:
+  - item: C/C++
+  - item: Python
+  - item: MATLAB
+  - item: SQL
+  - item: JavaScript
+  - item: HTML
+  - item: CSS
+
+frameworks:
+  - item: Ember & Glimmer
+  - item: React
+  - item: Jekyll
+  - item: Node
+  - item: D3
+  - item: Wordpress
+  - item: Timber
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: AWS
+  - item: GCP
+  - item: Postman
+  - item: MongoDB
+
+design:
+  - item: Sketch
+  - item: InDesign
+  - item: InVision
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing

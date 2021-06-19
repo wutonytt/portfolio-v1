@@ -1,0 +1,39 @@
+# Site settings
+name: Hung-Yi Wu
+title: Hung-Yi Wu | CS Student
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://wutonytt.github.io/
+baseurl: ''
+email: wutonytt.cs07@nycu.edu.tw
+cover: https://wutonytt.github.io/img/og.png
+logo: https://bchiang7.github.io/img/emojis/technologist.png
+resume: https://wutonytt.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:wutonytt.cs07@nycu.edu.tw
+  - title: github
+    url: https://github.com/wutonytt
+  - title: linkedin
+    url: https://www.linkedin.com/in/wutonytt/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
