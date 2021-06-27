@@ -1,5 +1,4 @@
-### This is MODIFIED with the original repo from https://github.com/bchiang7/bchiang7.github.io
-### This is UNFINISHED yet.
+### This is modified with the original repo from Brittany Chiang. Check out here: https://github.com/bchiang7/bchiang7.github.io
 # v3
 
 Third iteration of my personal website built with Jekyll.
