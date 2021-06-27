@@ -9,6 +9,7 @@
   used:
     - thing: Python
     - thing: Jupyter
+    - thing: Semantic Segmentation
     - thing: Deep Learning
     - thing: Computer Vision
     - thing: OpenPose
