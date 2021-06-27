@@ -1,11 +1,10 @@
 - name: Camera-Based Table Tennis Posture Analysis
   url: https://github.com/wutonytt/Camera-Based-Table-Tennis-Posture-Analysis
   code: https://github.com/wutonytt/Camera-Based-Table-Tennis-Posture-Analysis
-  description: |
-   \noindent
-     * Utilized an SVM model to classify table tennis players’ postures (forehand, backhand, etc.) with skeleton detection. Successfully achieved 92% overall accuracy on test videos<\br>
-     * Built a model to trace balls and tables by Semantic Segmentation with Google AI’s EfficientNet with a 90% average IoU score on test images<\n>
-     * Successfully increased the efficiency of video analyses by automatically calculating the postures distributions and automatically breaking down videos
+  description:
+    - Utilized an SVM model to classify table tennis players’ postures (forehand, backhand, etc.) with skeleton detection. Successfully achieved 92% overall accuracy on test videos<\br>
+    - Built a model to trace balls and tables by Semantic Segmentation with Google AI’s EfficientNet with a 90% average IoU score on test images<\n>
+    - Successfully increased the efficiency of video analyses by automatically calculating the postures distributions and automatically breaking down videos
   used:
     - thing: Python
     - thing: Jupyter
