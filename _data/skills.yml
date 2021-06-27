@@ -1,28 +1,30 @@
 languages:
-  - item: C/C++
   - item: Python
-  - item: MATLAB
+  - item: C/C++
+  - item: Go
   - item: SQL
+  - item: MATLAB
   - item: JavaScript
   - item: HTML
   - item: CSS
+  - item: Shell Scripts
+  - item: LaTeX
 
 frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: TensorFlow
+  - item: PyTorch
+  - item: Keras
+  - item: scikit-learn
+  - item: HuggingFace
 
 tools:
   - item: Bash
   - item: Git & Github
   - item: AWS
   - item: GCP
-  - item: Postman
-  - item: MongoDB
+  - item: NumPy
+  - item: Pandas
+  - item: Seaborn
 
 design:
   - item: Sketch
