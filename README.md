@@ -1,4 +1,4 @@
-### This is a fork from https://github.com/bchiang7/bchiang7.github.io
+### This is MODIFIED with the original repo from https://github.com/bchiang7/bchiang7.github.io
 ### This is UNFINISHED yet.
 # v3
 
