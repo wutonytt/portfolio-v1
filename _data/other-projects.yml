@@ -2,9 +2,9 @@
   url: https://github.com/wutonytt/Camera-Based-Table-Tennis-Posture-Analysis
   code: https://github.com/wutonytt/Camera-Based-Table-Tennis-Posture-Analysis
   description:
-    - thing: - Utilized an SVM model to classify table tennis players’ postures (forehand, backhand, etc.) with skeleton detection. Successfully achieved 92% overall accuracy on test videos
-    - thing: - Built a model to trace balls and tables by Semantic Segmentation with Google AI’s EfficientNet with a 90% average IoU score on test images
-    - thing: - Successfully increased the efficiency of video analyses by automatically calculating the postures distributions and automatically breaking down videos
+    - thing: Utilized an SVM model to classify table tennis players’ postures (forehand, backhand, etc.) with skeleton detection. Successfully achieved 92% overall accuracy on test videos
+    - thing: Built a model to trace balls and tables by Semantic Segmentation with Google AI’s EfficientNet with a 90% average IoU score on test images
+    - thing: Successfully increased the efficiency of video analyses by automatically calculating the postures distributions and automatically breaking down videos
   used:
     - thing: Python
     - thing: Jupyter
@@ -14,65 +14,75 @@
     - thing: OpenPose
     - thing: EfficientNet
 
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
-  used:
-    - thing: Gatsby
-    - thing: Sublime Text
-    - thing: Atom
-    - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
-
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
+- name: Fake News Detection with a BERT-Based Deep Learning Approach
+  url: https://github.com/wutonytt/NYCU-Spring-2021-AI-Final-Project
+  code: https://github.com/wutonytt/NYCU-Spring-2021-AI-Final-Project
+  description: 
+    - thing: Utilized LSTM, Bidirectional LSTM, CNN-BiLSTM, and BERT-based model to perform fake news detection
+    - thing: Successfully achieved 97% to 99% accuracy on University of Victoria ISOT Fake News Dataset
   used:
     - thing: Python
-    - thing: MySQL
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
+    - thing: Jupyter
+    - thing: Natural Language Processing
+    - thing: LSTM
+    - thing: BiLSTM
+    - thing: CNN-BiLSTM
+    - thing: BERT
 
-- name: myNEU Redesign
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
+- name: Stock Price Prediction
+  url: https://github.com/wutonytt/Stock-Price-Prediction
+  code: https://github.com/wutonytt/Stock-Price-Prediction
+  description: 
+    - thing: Implemented a Long Short-Term Memory model to predict stock prices for the next 10 days based on data for the past 1000 days. Data was fetched by Yahoo! Finance API
+    - thing: Successfully verified and visualized the trends of actual and predicted stock prices for the past 10 years
   used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
+    - thing: Python
+    - thing: Deep Learning
+    - thing: LSTM
+    - thing: Yahoo Finance API
 
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
+- name: BBS & Chatroom
+  url: https://github.com/wutonytt/BBS-Chatroom
+  code: https://github.com/wutonytt/BBS-Chatroom
+  description: 
+    - thing: Constructed a Bulletin Board System in Python to allow users to create boards, posts, comments
+    - thing: Created a chat room service within the BBS to allow users to privately/publicly chat with other users
+  used:
+    - thing: Python
+    - thing: Network Programming
+    - thing: Shell Script
+    - thing: TCP
+    - thing: UDP
+
+- name: Rainfall Forecast
+  url: https://github.com/wutonytt/Rainfall-Forcast
+  code: https://github.com/wutonytt/Rainfall-Forcast
   description:
-    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
+    - thing: Designed a web crawler to capture history data from the Central Weather Bureau of Taiwan
+    - thing: Built models to predict if it will rain shortly based on the data fetched by the web crawler
   used:
-    - thing: React
-    - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
+    - thing: Python
+    - thing: Jupyter
+    - thing: Machine Learning
+    - thing: Random Forest
+    - thing: K-Nearest Neighbor
+    - thing: Logistic Regression
+    - thing: Data Visualization
+    - thing: Web Crawling
 
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
-  img: weather
-  used:
-    - thing: JavaScript
-    - thing: CSS
-    - thing: Node.js
-    - thing: Express
-    - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
+# - name: Weather Widget
+#   url: http://quiet-dusk-89245.herokuapp.com/
+#   code: https://github.com/bchiang7/DemoWebApp
+#   description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
+#   img: weather
+#   used:
+#     - thing: JavaScript
+#     - thing: CSS
+#     - thing: Node.js
+#     - thing: Express
+#     - thing: Heroku
+#     - thing: OpenWeatherMap API
+#     - thing: Google Maps API
 
 # - name: ScreenTime 2.0
 #   url: https://play.google.com/store/apps/details?id=com.starry.management
@@ -85,83 +95,83 @@
 #   - thing: Marionette
 #   - thing: Cordova
 
-- name: Personal Website V2
-  url: https://bchiang7.github.io/v2
-  code: https://github.com/bchiang7/v2
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
-  used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: Github Pages
+# - name: Personal Website V2
+#   url: https://bchiang7.github.io/v2
+#   code: https://github.com/bchiang7/v2
+#   description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+#   used:
+#     - thing: Jekyll
+#     - thing: Handlebars
+#     - thing: SCSS
+#     - thing: JavaScript
+#     - thing: Github Pages
 
-- name: React Resume
-  url: https://bchiang7.github.io/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: CSS
+# - name: React Resume
+#   url: https://bchiang7.github.io/react-profile/
+#   code: https://github.com/bchiang7/react-profile/
+#   description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+#   used:
+#     - thing: JavaScript
+#     - thing: React
+#     - thing: CSS
 
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Node.js
-    - thing: Angular
-    - thing: Express
-    - thing: MongoDB
+# - name: CourseSource
+#   url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
+#   code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
+#   description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
+#   used:
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: JavaScript
+#     - thing: Node.js
+#     - thing: Angular
+#     - thing: Express
+#     - thing: MongoDB
 
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Bootstrap
+# - name: NU Women in Tech
+#   url: http://nuwit.ccs.neu.edu/
+#   code: https://github.com/nuwit/website
+#   description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
+#   used:
+#     - thing: Jekyll
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: JavaScript
+#     - thing: Bootstrap
 
-- name: Fontipsums
-  url: https://bchiang7.github.io/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
-  used:
-    - thing: HTML
-    - thing: SCSS
+# - name: Fontipsums
+#   url: https://bchiang7.github.io/fontipsums
+#   code: https://github.com/bchiang7/fontipsums
+#   description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
+#   used:
+#     - thing: HTML
+#     - thing: SCSS
 
-- name: Personal Website V1
-  url: https://bchiang7.github.io/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: Bootstrap
-    - thing: JavaScript
-    - thing: jQuery
+# - name: Personal Website V1
+#   url: https://bchiang7.github.io/v1
+#   code: https://github.com/bchiang7/website_2015/
+#   description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+#   used:
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: Bootstrap
+#     - thing: JavaScript
+#     - thing: jQuery
 
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
-  used:
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
+# - name: One Card For All
+#   url: http://onecardforall.org
+#   description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
+#   used:
+#     - thing: HTML
+#     - thing: SCSS
+#     - thing: JavaScript
+#     - thing: jQuery
 
-- name: JetBlue HumanKinda
-  url: https://us.mullenlowe.com/work/humankinda/
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: jQuery
+# - name: JetBlue HumanKinda
+#   url: https://us.mullenlowe.com/work/humankinda/
+#   description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
+#   used:
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: JavaScript
+#     - thing: jQuery
