@@ -1,9 +1,10 @@
 languages:
   - item: Python
   - item: C/C++
-  - item: Go
+  - item: Java
   - item: SQL
   - item: MATLAB
+  - item: Go
   - item: JavaScript
   - item: HTML
   - item: CSS
@@ -19,17 +20,11 @@ frameworks:
 
 tools:
   - item: Bash
-  - item: Git & Github
+  - item: Git
   - item: AWS
   - item: GCP
   - item: NumPy
   - item: Pandas
   - item: Seaborn
-
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+  - item: Scrum
+  - item: Cucumber
