@@ -3,7 +3,7 @@ name: Hung-Yi Wu
 title: Hung-Yi Wu | Software Engineer
 description: A Software Engineer at AICS
 url: https://wutonytt.github.io/portfolio-v1/
-baseurl: ""
+baseurl: "/portfolio-v1/"
 email: wutonytt.cs07@nycu.edu.tw
 cover: https://wutonytt.github.io/portfolio-v1/img/og.png
 logo: https://wutonytt.github.io/portfolio-v1/img/emojis/technologist.png
