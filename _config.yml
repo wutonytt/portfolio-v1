@@ -2,8 +2,8 @@
 name: Hung-Yi Wu
 title: Hung-Yi Wu | Software Engineer
 description: A Software Engineer at AICS
-url: https://wutonytt.github.io/portfolio-v1
-baseurl: ''
+url: https://wutonytt.github.io/portfolio-v1/
+baseurl: ""
 email: wutonytt.cs07@nycu.edu.tw
 cover: https://wutonytt.github.io/portfolio-v1/img/og.png
 logo: https://wutonytt.github.io/portfolio-v1/img/emojis/technologist.png
@@ -20,19 +20,19 @@ social:
 markdown: kramdown
 
 exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - '*.gemspec'
-  - 'README.md'
-  - 'node_modules'
-  - 'build'
-  - 'gulpfile.js'
-  - 'package.json'
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
 
 keep_files:
-  - 'CNAME'
-  - '.git'
-  - '.gitignore'
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
 
 plugins_dir:
   - jekyll-minifier

@@ -1,12 +1,12 @@
 {
-  "name": "wutonytt.com",
+  "name": "portfolio-v1",
   "version": "0.0.0",
   "description": "A Computer Science Student",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wutonytt/wutonytt.github.io"
+    "url": "https://github.com/wutonytt/wutonytt.github.io/portfolio-v1/"
   },
-  "homepage": "https://github.com/wutonytt/wutonytt.github.io",
+  "homepage": "https://github.com/wutonytt/wutonytt.github.io/portfolio-v1/",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
