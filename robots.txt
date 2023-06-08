@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://wutonytt.github.io/sitemap.xml
+Sitemap: https://wutonytt.github.io/portfolio-v1/sitemap.xml
