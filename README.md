@@ -1,4 +1,4 @@
-# portfolio website v1
+# Portfolio Website v1
 
 ###### This is modified with the original repo from Brittany Chiang. Check out here: https://github.com/bchiang7/bchiang7.github.io
 Third iteration of my personal website built with Jekyll.
